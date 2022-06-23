@@ -1,0 +1,347 @@
+<?xml version='1.0' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href='NI VeriStand FPGA DMA.xsl'?>
+<FPGADMAChannelData xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "NI VeriStand FPGA DMA.xsd">
+    <Version>2.0</Version>
+    <Bitfile>FPGA Bitfiles\PXI-7813R PWM Example.lvbitx</Bitfile>
+    <Categories>
+		<Category>
+			<Name>Input</Name>
+			<Description>This section contains all the inputs from the FPGA Board.</Description>
+		</Category>
+        <Category>
+            <Name>Output</Name>
+            <Description>This section contains all the outputs from the FPGA Board.</Description>
+			<Category>
+				<Name>Variable DC and Freq</Name>
+				<Description>This section contains all the PWM outputs from the FPGA Board that have a run-time variable duty cycle and frequency.</Description>
+			</Category>
+			<Category>
+				<Name>Variable DC</Name>
+				<Description>This section contains all the PWM outputs from the FPGA Board that have a run-time variable duty cycle, but a frequency configured statically in the system explorer. To configure the frequency, click the channel for each DO and set the parameter at the bottom of the page.</Description>
+			</Category>
+			<Category>
+				<Name>Variable Freq</Name>
+				<Description>This section contains all the PWM outputs from the FPGA Board that have a run-time variable frequency, but a duty cycle configured statically in the system explorer. To configure the duty cylce, click the channel for each DO and set the parameter at the bottom of the page.</Description>
+			</Category>
+		</Category>
+    </Categories>
+	
+    <DMA_Read>
+        <Packets>13</Packets>
+        <Packet/><!--Packet for Late Status bit -->
+        <Packet>
+            <PWM>
+                <Name>DI6 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO6 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM6 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI7 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO7 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM7 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI8 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO8 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM8 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI9 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO9 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM9 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI10 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO10 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM10 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI11 Duty Cycle</Name>
+                <Description>PWM input using digital line DIO11 on connector 1.</Description>
+                <Category>Input</Category>
+                <Scale>100</Scale>
+                <Unit>%</Unit>
+                <Symbol>PWM In</Symbol>
+                <Parameters>
+                    <U32>
+                        <Name>Time Out (ms)</Name>
+                        <ControlName>PWM11 In Timeout</ControlName>
+                        <InitialValue>10</InitialValue>
+                        <Scale>107374.182375</Scale>
+                    </U32>
+                </Parameters>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI6 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO6.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI7 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO7.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI8 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO8.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI9 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO9.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI10 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO10.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+        <Packet>
+            <PWM>
+                <Name>DI11 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector1\DO11.</Description>
+                <Category>Input</Category>
+                <Scale>40000000</Scale>
+                <Unit>Hz</Unit>
+                <Symbol>PWM In</Symbol>
+            </PWM>
+        </Packet>
+    </DMA_Read>
+	
+    <DMA_Write>
+        <Packets>4</Packets>
+        <Packet>
+            <FXPU32>
+                <Name>DO1 Duty Cycle</Name>
+                <Description>Duty Cycle of the PWM on channel Connector0\DO1.</Description>
+                <Category>Output\Variable DC and Freq</Category>
+                <InitialValue>50</InitialValue>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+                <Symbol>PWM Out</Symbol>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+            <FXPU32>
+                <Name>DO0 Duty Cycle</Name>
+                <Description>Duty Cycle of the PWM on channel Connector0\DO0.</Description>
+                <Category>Output\Variable DC and Freq</Category>
+                <InitialValue>50</InitialValue>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+                <Symbol>PWM Out</Symbol>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+        </Packet>
+        <Packet>
+            <FXPU32>
+                <Name>DO1 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector0\DO1.</Description>
+                <Category>Output\Variable DC and Freq</Category>
+				<InitialValue>2000</InitialValue>
+                <Scale>40000000</Scale>
+                <Offset>0</Offset>
+				<Unit>Hz</Unit>
+                <Symbol>PWM Out</Symbol>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+            <FXPU32>
+                <Name>DO0 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector0\DO0.</Description>
+                <Category>Output\Variable DC and Freq</Category>
+				<InitialValue>2000</InitialValue>
+                <Scale>40000000</Scale>
+                <Offset>0</Offset>
+				<Unit>Hz</Unit>
+                <Symbol>PWM Out</Symbol>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+        </Packet>
+        <Packet>
+            <FXPU32>
+                <Name>DO3 Duty Cycle</Name>
+                <Description>Duty Cycle of the PWM on channel Connector0\DO3. Also, configure the frequency of the PWM with the parameter at the bottom of this page.</Description>
+                <Category>Output\Variable DC</Category>
+				<InitialValue>50</InitialValue>
+                <Scale>100</Scale>
+				<Unit>%</Unit>
+                <Symbol>PWM Out</Symbol>
+				<Parameters>
+					<FXPU32>
+                        <Name>Frequency (Hz)</Name>
+                        <ControlName>Freq Param DO3</ControlName>
+                        <InitialValue>2000</InitialValue>
+						<Scale>40000000</Scale>
+						<Offset>0</Offset>
+						<FXPWL>32</FXPWL>
+						<FXPIWL>0</FXPIWL>
+                    </FXPU32>
+				</Parameters>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+            <FXPU32>
+                <Name>DO2 Duty Cycle</Name>
+                <Description>Duty Cycle of the PWM on channel Connector0\DO2. Also, configure the frequency of the PWM with the parameter at the bottom of this page.</Description>
+                <Category>Output\Variable DC</Category>
+				<InitialValue>50</InitialValue>
+                <Scale>100</Scale>
+				<Unit>%</Unit>
+                <Symbol>PWM Out</Symbol>
+				<Parameters>
+					<FXPU32>
+                        <Name>Frequency (Hz)</Name>
+                        <ControlName>Freq Param DO2</ControlName>
+                        <InitialValue>2000</InitialValue>
+						<Scale>40000000</Scale>
+						<Offset>0</Offset>
+						<FXPWL>32</FXPWL>
+						<FXPIWL>0</FXPIWL>
+                    </FXPU32>
+				</Parameters>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+        </Packet>
+        <Packet>
+            <FXPU32>
+                <Name>DO5 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector0\DO5. Also, configure the duty cycle of the PWM with the parameter at the bottom of this page.</Description>
+                <Category>Output\Variable Freq</Category>
+				<InitialValue>2000</InitialValue>
+                <Scale>40000000</Scale>
+                <Offset>0</Offset>
+				<Unit>Hz</Unit>
+                <Symbol>PWM Out</Symbol>
+				<Parameters>
+					<FXPU32>
+                        <Name>Duty Cycle (%)</Name>
+                        <ControlName>DC Param DO5</ControlName>
+                        <InitialValue>50</InitialValue>
+						<Scale>100</Scale>
+						<FXPWL>32</FXPWL>
+						<FXPIWL>0</FXPIWL>
+                    </FXPU32>
+				</Parameters>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+            <FXPU32>
+                <Name>DO4 Freq</Name>
+                <Description>Frequency of the PWM on channel Connector0\DO4. Also, configure the duty cycle of the PWM with the parameter at the bottom of this page.</Description>
+                <Category>Output\Variable Freq</Category>
+				<InitialValue>2000</InitialValue>
+                <Scale>40000000</Scale>
+                <Offset>0</Offset>
+				<Unit>Hz</Unit>
+                <Symbol>PWM Out</Symbol>
+				<Parameters>
+					<FXPU32>
+                        <Name>Duty Cycle (%)</Name>
+                        <ControlName>DC Param DO4</ControlName>
+                        <InitialValue>50</InitialValue>
+						<Scale>100</Scale>
+						<FXPWL>32</FXPWL>
+						<FXPIWL>0</FXPIWL>
+                    </FXPU32>
+				</Parameters>
+				<FXPWL>32</FXPWL>
+                <FXPIWL>0</FXPIWL>
+            </FXPU32>
+		</Packet>
+    </DMA_Write>
+</FPGADMAChannelData>

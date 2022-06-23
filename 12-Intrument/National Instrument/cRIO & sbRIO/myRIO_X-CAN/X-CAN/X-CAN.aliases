@@ -1,0 +1,9 @@
+[My Computer]
+My Computer = "192.168.1.20"
+
+[NI-myRIO-1900-0309c519]
+NI-myRIO-1900-0309c519 = "192.168.1.114"
+
+[RT myRIO Target]
+RT myRIO Target = "0.0.0.0"
+

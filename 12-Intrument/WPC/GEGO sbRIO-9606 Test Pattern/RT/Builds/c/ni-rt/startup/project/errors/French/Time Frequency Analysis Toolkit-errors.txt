@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Time Frequency Analysis Toolkit" familyname="Time Frequency Analysis Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-42619">
+Toolkit Analyse dans le domaine fréquentiel: Les paramètres des entrées 'transform info' et 'expansion info' sont valides pour tout calcul ultérieur.
+</nierror>
+<nierror code="-42618">
+Toolkit Analyse dans le domaine fréquentiel: La taille de ligne du noyau doit être une puissance de 2 et supérieure à 0. La taille de colonne du noyau doit être 2^(ceil(log2(Ls-1))), Ls représentant la longueur du signal en entrée.
+</nierror>
+<nierror code="-42615">
+Toolkit Analyse dans le domaine fréquentiel: L'entrée 'number of terms' doit être supérieure à 0.
+</nierror>
+<nierror code="-42614">
+Toolkit Analyse dans le domaine fréquentiel: Le paramètre N/dM, ou 'oversampling rate' (fréquence de suréchantillonnage), doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="-42606">
+Toolkit Analyse dans le domaine fréquentiel: Cette opération sur fichier ne supporte pas le module LabVIEW Real-Time.
+</nierror>
+<nierror code="-42605">
+Toolkit Analyse dans le domaine fréquentiel: La taille de la table de couleurs doit être 256.
+</nierror>
+<nierror code="-42601">
+Toolkit Analyse dans le domaine fréquentiel: Le signal en entrée est vide ou la longueur du signal est inférieure à la longueur de la fenêtre.
+</nierror>
+<nierror code="42602">
+Toolkit Analyse dans le domaine fréquentiel: La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="42603">
+Toolkit Analyse dans le domaine fréquentiel: Les intervalles de fréquence doivent être une puissance de 2 et doivent être supérieurs à 0.
+</nierror>
+<nierror code="42611">
+Toolkit Analyse dans le domaine fréquentiel: Le paramètre 'time steps' doit être supérieur à 0.
+</nierror>
+<nierror code="42613">
+Toolkit Analyse dans le domaine fréquentiel: Le paramètre 'order' doit être supérieur ou égal à 0.
+</nierror>
+<nierror code="42614">
+Toolkit Analyse dans le domaine fréquentiel: Le paramètre N/dM, ou 'oversampling rate' (fréquence de suréchantillonnage), doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="42616">
+Toolkit Analyse dans le domaine fréquentiel: La taille de la fenêtre doit être supérieure à 0.
+</nierror>
+<nierror code="42617">
+Toolkit Analyse dans le domaine fréquentiel: La variance de la fenêtre gaussienne doit être supérieure à 0.
+</nierror>
+<nierror code="42618">
+Toolkit Analyse dans le domaine fréquentiel: La longueur de la fenêtre gaussienne doit être une puissance de 2 et doit être supérieure à 8.
+</nierror>
+<nierror code="42619">
+Toolkit Analyse dans le domaine fréquentiel: Le paramètre 'alpha' doit être supérieur ou égal à 0.
+</nierror>
+</nidocument>

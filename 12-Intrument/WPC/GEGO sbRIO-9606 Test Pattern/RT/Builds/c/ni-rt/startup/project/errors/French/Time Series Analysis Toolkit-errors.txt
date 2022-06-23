@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Time Series Analysis Toolkit" familyname="Time Series Analysis Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-42461">
+Toolkit Analyse de séries temporelles: La dimension du paramètre 'scale info' ne correspond pas à la dimension de la série temporelle multivariable.
+</nierror>
+<nierror code="-42454">
+Toolkit Analyse de séries temporelles: La variance de bruit doit être supérieure à zéro ou la matrice de covariance de bruit n'est pas valide.
+</nierror>
+<nierror code="-42453">
+Toolkit Analyse de séries temporelles: Le premier élément du tableau de coefficients du modèle doit être 1 et la taille du tableau doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-42452">
+Toolkit Analyse de séries temporelles: Le nombre de points prévu doit être supérieur à 0.
+</nierror>
+<nierror code="-42451">
+Toolkit Analyse de séries temporelles: La valeur de l'ordre du modèle est inférieure à la valeur de l'ordre requis.
+</nierror>
+<nierror code="-42442">
+Toolkit Analyse de séries temporelles: Le nombre d'intervalles de cepstre doit être supérieur à 0.
+</nierror>
+<nierror code="-42441">
+Toolkit Analyse de séries temporelles: La dimension du sous-espace doit être supérieure à 0 et inférieure à 100 en pourcentage.
+</nierror>
+<nierror code="-42430">
+Toolkit Analyse de séries temporelles: La valeur de référence n'est pas valide.
+</nierror>
+<nierror code="-42429">
+Toolkit Analyse de séries temporelles: Le nombre de sous-séquences dans lequel diviser la série en entrée doit être supérieur à 0.
+</nierror>
+<nierror code="-42428">
+Toolkit Analyse de séries temporelles: Le pourcentage doit être supérieur ou égal à 0 et inférieur à 100.
+</nierror>
+<nierror code="-42427">
+Toolkit Analyse de séries temporelles: La taille du tableau de points temporels ne correspond pas à la taille du tableau de valeurs de la série temporelle échantillonnée de manière irrégulière.
+</nierror>
+<nierror code="-42426">
+Toolkit Analyse de séries temporelles: La longueur du mouvement saisonnier de la série temporelle doit être supérieure à 0.
+</nierror>
+<nierror code="-42425">
+Toolkit Analyse de séries temporelles: Le degré de liberté qui définit la distribution doit être supérieur à 0.
+</nierror>
+<nierror code="-42424">
+Toolkit Analyse de séries temporelles: La valeur du point final supérieur doit être supérieure à la valeur du point final inférieur.
+</nierror>
+<nierror code="-42423">
+Toolkit Analyse de séries temporelles: Les paramètres en entrée ne correspondent pas à la dimension de la série temporelle multivariable.
+</nierror>
+<nierror code="-42422">
+Toolkit Analyse de séries temporelles: Le nombre d'échantillons doit être supérieur à 0.
+</nierror>
+<nierror code="-42421">
+Toolkit Analyse de séries temporelles: L'écart-type en entrée doit être supérieur à 0.
+</nierror>
+<nierror code="-42407">
+Toolkit Analyse de séries temporelles: La série de temps en entrée est trop grande pour la mémoire. Vous pouvez sous-échantillonné la série de temps en entrée, modifier la longueur de la fenêtre ou tronquer la série de temps en entrée pour réduire la mémoire utilisée.
+</nierror>
+<nierror code="-42406">
+Toolkit Analyse de séries temporelles: Toutes les valeurs de la série temporelle en entrée doivent être positives.
+</nierror>
+<nierror code="-42405">
+Toolkit Analyse de séries temporelles: La série temporelle en entrée est vide ou sa longueur doit être supérieure à la longueur requise.
+</nierror>
+<nierror code="-42404">
+Toolkit Analyse de séries temporelles: Cette opération sur fichier ne supporte pas le module LabVIEW Real-Time.
+</nierror>
+<nierror code="-42403">
+Toolkit Analyse de séries temporelles: Le nombre d'intervalles de fréquence doit être supérieur à 0.
+</nierror>
+<nierror code="-42402">
+Toolkit Analyse de séries temporelles: La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-42401">
+Toolkit Analyse de séries temporelles: La taille de la table de couleurs doit être 256.
+</nierror>
+<nierror code="42421">
+Toolkit Analyse de séries temporelles: Impossible d'estimer un nombre de composants indépendants supérieur à celui spécifié.
+</nierror>
+<nierror code="42422">
+Toolkit Analyse de séries temporelles: Le nombre d'intervalles de fréquence a changé.
+</nierror>
+</nidocument>

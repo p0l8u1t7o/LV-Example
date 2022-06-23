@@ -1,0 +1,122 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="13008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="subvis" Type="Folder">
+		<Item Name="dotNETChart_Settings_Default.vi" Type="VI" URL="../subvis/dotNETChart_Settings_Default.vi"/>
+		<Item Name="dotNETChart_DataChangeEvent.vi" Type="VI" URL="../subvis/dotNETChart_DataChangeEvent.vi"/>
+		<Item Name="dotNETChart_DisplayChangeEvent.vi" Type="VI" URL="../subvis/dotNETChart_DisplayChangeEvent.vi"/>
+	</Item>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Mouse Zoom" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Mouse Zoom:State</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Mouse Zoom</Property>
+			<Item Name="dotNETChart_Property_Mouse_Zoom_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Mouse_Zoom_Read.vi"/>
+			<Item Name="dotNETChart_Property_Mouse_Zoom_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Mouse_Zoom_Write.vi"/>
+		</Item>
+		<Item Name="Chart Wall:Colour" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Background Colour</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Wall:Colour</Property>
+			<Item Name="dotNETChart_Property_Background_Colour_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Background_Colour_Read.vi"/>
+			<Item Name="dotNETChart_Property_Background_Colour_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Background_Colour_Write.vi"/>
+		</Item>
+		<Item Name="X Axis:Label Text" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Axis Title</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Axis:Label Text</Property>
+			<Item Name="dotNETChart_Property_X_Axis_Label_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_X_Axis_Label_Read.vi"/>
+			<Item Name="dotNETChart_Property_X_Axis_Label_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_X_Axis_Label_Write.vi"/>
+		</Item>
+		<Item Name="Y Axis:Label Text" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">y axis:label txt</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Axis:Label Text</Property>
+			<Item Name="dotNETChart_Property_Y_Axis_Label_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Y_Axis_Label_Read.vi"/>
+			<Item Name="dotNETChart_Property_Y_Axis_Label_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Y_Axis_Label_Write.vi"/>
+		</Item>
+		<Item Name="Chart Wall:Transparency" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart Wall:Transparency</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Wall:Transparency</Property>
+			<Item Name="dotNETChart_Property_Chart_Wall_Transparency_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Wall_Transparency_Read.vi"/>
+			<Item Name="dotNETChart_Property_Chart_Wall_Transparency_Writevi.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Wall_Transparency_Writevi.vi"/>
+		</Item>
+		<Item Name="3D Mode" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">3D Mode</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">3D Mode</Property>
+			<Item Name="dotNETChart_Property_3D_Mode_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_3D_Mode_Read.vi"/>
+			<Item Name="dotNETChart_Property_3D_Mode_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_3D_Mode_Write.vi"/>
+		</Item>
+		<Item Name="3D Settings:All Elements" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">3D Settings:All</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">3D Settings:All Elements</Property>
+			<Item Name="dotNETChart_Property_3D_Settings_All_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_3D_Settings_All_Read.vi"/>
+			<Item Name="dotNETChart_Property_3D_Settings_All_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_3D_Settings_All_Write.vi"/>
+		</Item>
+		<Item Name="Chart Wall:Background:Gradient Style" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Background Gradient Style</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Wall:Background:Gradient Style</Property>
+			<Item Name="dotNETChart_Property_Back_Grad_Style_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Back_Grad_Style_Read.vi"/>
+			<Item Name="dotNETChart_Property_Back_Grad_Style_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Back_Grad_Style_Write.vi"/>
+		</Item>
+		<Item Name="Skin Style" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Skin Style</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Skin Style</Property>
+			<Item Name="dotNETChart_Property_Skin_Style_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Skin_Style_Read.vi"/>
+			<Item Name="dotNETChart_Property_Skin_Style_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Skin_Style_Write.vi"/>
+		</Item>
+		<Item Name="Chart Wall:Background:Gradient Colour" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart Wall:Background:Gradient Colour</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Wall:Background:Gradient Colour</Property>
+			<Item Name="dotNETChart_Property_BackgroundGradColour_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_BackgroundGradColour_Read.vi"/>
+			<Item Name="dotNETChart_Property_BackgroundGradColour_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_BackgroundGradColour_Write.vi"/>
+		</Item>
+		<Item Name="Chart Wall:Border Colour" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart Wall:Border Colour</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Wall:Border Colour</Property>
+			<Item Name="dotNETChart_Property_Chart_Border_Colour_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Border_Colour_Read.vi"/>
+			<Item Name="dotNETChart_Property_Chart_Border_Colour_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Border_Colour_Write.vi"/>
+		</Item>
+		<Item Name="Chart Palette" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart Palette</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Palette</Property>
+			<Item Name="dotNETChart_Property_Chart_Palette_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Palette_Read.vi"/>
+			<Item Name="dotNETChart_Property_Chart_Palette_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Palette_Write.vi"/>
+		</Item>
+		<Item Name="Legend Style" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend Style</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend Style</Property>
+			<Item Name="dotNETChart_Property_Legend_Style_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Legend_Style_Read.vi"/>
+			<Item Name="dotNETChart_Property_Legend_Style_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Legend_Style_Write.vi"/>
+		</Item>
+		<Item Name="Chart Types" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart Type</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart Types</Property>
+			<Item Name="dotNETChart_Property_Chart_Type_Array_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Type_Array_Read.vi"/>
+			<Item Name="dotNETChart_Property_Chart_Type_Array_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Chart_Type_Array_Write.vi"/>
+		</Item>
+		<Item Name="Series Data Colours" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Series Data Colours</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Series Data Colours</Property>
+			<Item Name="dotNETChart_Property_Series_Data_Colours_Read.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Series_Data_Colours_Read.vi"/>
+			<Item Name="dotNETChart_Property_Series_Data_Colours_Write.vi" Type="Property VI" URL="../subvis/Properties/dotNETChart_Property_Series_Data_Colours_Write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="dotNETChart Data 1.ctl" Type="Ability VI" URL="../dotNETChart Data 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="dotNETChart State 1.ctl" Type="Ability VI" URL="../dotNETChart State 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="dotNETChart Facade 1.vi" Type="Ability VI" URL="../dotNETChart Facade 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="dotNETChart Init 1.vi" Type="Ability VI" URL="../dotNETChart Init 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="Interactive Demo.vi" Type="VI" URL="../Interactive Demo.vi"/>
+</XControl>

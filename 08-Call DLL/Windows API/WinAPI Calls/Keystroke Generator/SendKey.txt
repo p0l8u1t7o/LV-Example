@@ -1,0 +1,10 @@
+The included VI's interact with the WIN95/98/NT keyboard manager to simulate user interactions. 
+
+Up to now they are only localized to german keyboard layout, but new VirtualKeys can be added. To do so, open the Diagramm of SendKey.vi and add the new codes at the end of the Virtual Key Table. (The Virtual Key Codes can be detect with the help of KeyValue.exe by No Nonsense Software, which is included in this archive). Then you have to Replace te Enumerated Type control VirtualKey with a Menu Ring Control, set the boolean constant of the inner Case construct to true and run the VI. Afterwards replace the Menu Ring with an Enumerated Type and reset the boolean constant to false. If you added new keys to the table, please mail me your VI, so other LVers can profit. 
+
+If you're interested in new versions, please send me an email to eyfrigd@sick.de.
+
+You may freely distribute this archive, as long as you include all the files.
+
+Good luck
+Dirk

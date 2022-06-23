@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Wavelet Analysis Toolkit" familyname="Wavelet Analysis Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-42244">
+Jitter Analysisツールキット: refnumに格納されている2D配列の指標が範囲外です。
+</nierror>
+<nierror code="-42243">
+Jitter Analysisツールキット: refnumはこの操作をサポートしていません。
+</nierror>
+<nierror code="-42242">
+Jitter Analysisツールキット: refnumが無効です。
+</nierror>
+<nierror code="-42241">
+Jitter Analysisツールキット: VIはrefnumを作成しませんでした。
+</nierror>
+<nierror code="-42230">
+Jitter Analysisツールキット: ユーザ定義ウェーブレット入力の時間間隔は0より大きくなければなりません。
+</nierror>
+<nierror code="-42229">
+Jitter Analysisツールキット: ウェーブレットフィルタバンクのデータファイルの形式が無効です。
+</nierror>
+<nierror code="-42226">
+Jitter Analysisツールキット: ウェーブレットパケットハンドルまたはセッションが無効であるか、またはそれが参照するデータスペースに必要な情報が含まれていません。
+</nierror>
+<nierror code="-42225">
+Jitter Analysisツールキット: ウェーブレット係数の次元が無効です。
+</nierror>
+<nierror code="-42224">
+Jitter Analysisツールキット: オプションのパラメータが無効で、VIがエントロピーを計算できません。
+</nierror>
+<nierror code="-42223">
+Jitter Analysisツールキット: トレンドレベルは、0～1.0以内である必要があります。
+</nierror>
+<nierror code="-42221">
+Jitter Analysisツールキット: ノードは終端ノードでなければなりません。
+</nierror>
+<nierror code="-42220">
+Jitter Analysisツールキット: ノードは終端ノードであってはいけません。
+</nierror>
+<nierror code="-42219">
+Jitter Analysisツールキット: パスまたはノード文字列に使用できるのは「0」または「1」のみです。
+</nierror>
+<nierror code="-42218">
+Jitter Analysisツールキット: 解析フィルタまたはシンセシスフィルタの長さは0より大きくなければなりません。
+</nierror>
+<nierror code="-42217">
+Jitter Analysisツールキット: ノードが分解ツリー上にありません。
+</nierror>
+<nierror code="-42215">
+Jitter Analysisツールキット: シフト入力は0または1でなければなりません。
+</nierror>
+<nierror code="-42212">
+Jitter Analysisツールキット: ウェーブレット分解のスケールは0より大きくなければなりません。
+</nierror>
+<nierror code="-42211">
+Jitter Analysisツールキット: 指定したウェーブレットタイプが無効です。
+</nierror>
+<nierror code="-42207">
+Jitter Analysisツールキット: しきい値周波数は0より大きく、サンプルレートの半分以下でなければなりません。
+</nierror>
+<nierror code="-42206">
+Jitter Analysisツールキット: カラーテーブルのサイズは256に等しくなければなりません。
+</nierror>
+<nierror code="-42205">
+Jitter Analysisツールキット: 係数の配列は空です。
+</nierror>
+<nierror code="-42204">
+Jitter Analysisツールキット: 指定の列挙されたデータタイプパラメータが無効です。
+</nierror>
+<nierror code="-42203">
+Jitter Analysisツールキット: <b>coef level</b>は整数で1と詳細係数最大レベルの間の値であるべきです。
+</nierror>
+<nierror code="-42202">
+Jitter Analysisツールキット: このファイル操作はLabVIEW Real-Timeモジュールをサポートしません。
+</nierror>
+<nierror code="-42201">
+Jitter Analysisツールキット: 入力信号が空です。
+</nierror>
+<nierror code="42201">
+Jitter Analysisツールキット: このVIは自動的に再初期化されました。
+</nierror>
+<nierror code="42211">
+Jitter Analysisツールキット: 指定したウェーブレットタイプが無効です。
+</nierror>
+<nierror code="42217">
+Jitter Analysisツールキット: マザーウェーブレットを計算するための分割レベルは1より大きくなければなりません。
+</nierror>
+<nierror code="42222">
+Jitter Analysisツールキット: 時間ステップは、0より大きくなければなりません。
+</nierror>
+</nidocument>

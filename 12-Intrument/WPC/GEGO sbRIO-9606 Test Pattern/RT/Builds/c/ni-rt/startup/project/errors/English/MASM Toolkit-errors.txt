@@ -1,0 +1,49 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="MASM Toolkit" displayname="MASM Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-359599">
+MASM Toolkit:  Error occurred during thread management. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-359548">
+MASM Toolkit:  Error occurred processing out-of-core (OOC) data files.
+</nierror>
+<nierror code="-359547">
+MASM Toolkit:  Error occurred during numerical factorization or iterative refinement.
+</nierror>
+<nierror code="-359546">
+MASM Toolkit:  Error occurred during analysis and symbolic factorization.
+</nierror>
+<nierror code="-359545">
+MASM Toolkit:  The solver session is invalid or corrupt. You must initialize a solver session before using it.
+</nierror>
+<nierror code="-359544">
+MASM Toolkit:  The matrices must have the same size and sparsity pattern.
+</nierror>
+<nierror code="-359543">
+MASM Toolkit:  The specified Matrix Market file format is not correct.
+</nierror>
+<nierror code="-359542">
+MASM Toolkit:  The specified storage format is not correct.
+</nierror>
+<nierror code="-359541">
+MASM Toolkit:  The sparse matrix object is invalid. You must initialize or create a sparse matrix object before using it.
+</nierror>
+<nierror code="-359521">
+MASM Toolkit:  The real matrix computation failed.
+</nierror>
+<nierror code="-359503">
+MASM Toolkit:  Unable to free the internal memory state of FFT.
+</nierror>
+<nierror code="-359502">
+MASM Toolkit:  Unable to initialize the internal memory state of FFT.
+</nierror>
+<nierror code="-359501">
+MASM Toolkit:  Unable to compute the FFT.
+</nierror>
+<nierror code="359501">
+MASM Toolkit:  The real matrix computation failed. LabVIEW executes the complex matrix computation instead. The result might be a complex matrix.
+</nierror>
+</nidocument>

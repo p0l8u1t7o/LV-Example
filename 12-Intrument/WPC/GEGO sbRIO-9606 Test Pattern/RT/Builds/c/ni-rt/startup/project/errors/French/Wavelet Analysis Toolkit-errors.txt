@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Wavelet Analysis Toolkit" familyname="Wavelet Analysis Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-42244">
+Toolkit Analyse en ondelettes: L'indice du tableau 2D spécifié par le refnum est hors gamme.
+</nierror>
+<nierror code="-42243">
+Toolkit Analyse en ondelettes: Le refnum ne supporte pas cette opération.
+</nierror>
+<nierror code="-42242">
+Toolkit Analyse en ondelettes: Le refnum n'est pas valide.
+</nierror>
+<nierror code="-42241">
+Toolkit Analyse en ondelettes: Le VI n'a pas créé le refnum.
+</nierror>
+<nierror code="-42230">
+Toolkit Analyse en ondelettes: L'intervalle de temps de l'entrée 'user defined wavelet' doit être supérieur à 0.
+</nierror>
+<nierror code="-42229">
+Toolkit Analyse en ondelettes: Le format du fichier de données pour la banque de filtres à ondelettes n'est pas valide.
+</nierror>
+<nierror code="-42226">
+Toolkit Analyse en ondelettes: La session ou le handle sur le paquet d'ondelettes n'est pas valide ou l'espace de données auquel il réfère ne contient pas les informations nécessaires.
+</nierror>
+<nierror code="-42225">
+Toolkit Analyse en ondelettes: Les dimensions des coefficients de l'ondelette ne sont pas valides.
+</nierror>
+<nierror code="-42224">
+Toolkit Analyse en ondelettes: Le paramètre 'optional' n'est pas valide et le VI ne peut pas calculer l'entropie.
+</nierror>
+<nierror code="-42223">
+Toolkit Analyse en ondelettes: Le niveau de tendance doit être compris entre 0 et 1 (bornes incluses).
+</nierror>
+<nierror code="-42221">
+Toolkit Analyse en ondelettes: Le noeud doit être un noeud de terminal.
+</nierror>
+<nierror code="-42220">
+Toolkit Analyse en ondelettes: Le nœud ne peut pas être un noeud de terminal.
+</nierror>
+<nierror code="-42219">
+Toolkit Analyse en ondelettes: Le chemin ou la chaîne du noeud ne peut contenir que des 0 ou des 1.
+</nierror>
+<nierror code="-42218">
+Toolkit Analyse en ondelettes: Les longueurs des filtres d'analyse ou de synthèse doivent être supérieures à 0.
+</nierror>
+<nierror code="-42217">
+Toolkit Analyse en ondelettes: Le nœud n'est pas sur l'arbre de décomposition.
+</nierror>
+<nierror code="-42215">
+Toolkit Analyse en ondelettes: L'entrée 'shift' doit être 0 ou 1.
+</nierror>
+<nierror code="-42212">
+Toolkit Analyse en ondelettes: L'échelle de la transformée en ondelettes doit être supérieur à 0.
+</nierror>
+<nierror code="-42211">
+Toolkit Analyse en ondelettes: Le type d'ondelette sélectionné n'est pas valide.
+</nierror>
+<nierror code="-42207">
+Toolkit Analyse en ondelettes: La fréquence seuil doit être supérieure à 0 mais inférieure ou égale à la moitié de la fréquence d'échantillonnage.
+</nierror>
+<nierror code="-42206">
+Toolkit Analyse en ondelettes: La taille de la table de couleurs doit être 256.
+</nierror>
+<nierror code="-42205">
+Toolkit Analyse en ondelettes: Le tableau de coefficients est vide.
+</nierror>
+<nierror code="-42204">
+Toolkit Analyse en ondelettes: Le paramètre 'enumerated data type' que vous avez sélectionné n'est pas valide.
+</nierror>
+<nierror code="-42203">
+Toolkit Analyse en ondelettes: <b>coef level</b> doit être un entier compris entre 1 et le plus haut niveau des coefficients de détail.
+</nierror>
+<nierror code="-42202">
+Toolkit Analyse en ondelettes: Cette opération sur fichier ne supporte pas le module LabVIEW Real-Time.
+</nierror>
+<nierror code="-42201">
+Toolkit Analyse en ondelettes: Le signal en entrée est vide.
+</nierror>
+<nierror code="42201">
+Toolkit Analyse en ondelettes: Ce VI a été réinitialisé automatiquement.
+</nierror>
+<nierror code="42211">
+Toolkit Analyse en ondelettes: Le type d'ondelette sélectionné n'est pas valide.
+</nierror>
+<nierror code="42217">
+Toolkit Analyse en ondelettes: Le raffinement pour le calcul de l'ondelette mère doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="42222">
+Toolkit Analyse en ondelettes: Le pas en temps doit être supérieur à 0.
+</nierror>
+</nidocument>

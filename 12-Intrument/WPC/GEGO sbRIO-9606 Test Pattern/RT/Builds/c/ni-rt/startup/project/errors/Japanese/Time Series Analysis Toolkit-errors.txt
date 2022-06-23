@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Time Series Analysis Toolkit" familyname="Time Series Analysis Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-42461">
+Time Series Analysisツールキット: スケール情報パラメータの次元が多変量時系列の次元と一致しません。
+</nierror>
+<nierror code="-42454">
+Time Series Analysisツールキット: ノイズ分散は0より大きくなければならないか、ノイズ共分散行列が無効です。
+</nierror>
+<nierror code="-42453">
+Time Series Analysisツールキット: モデル係数配列の最初の要素は1でなければならず、配列のサイズは1以上でなければなりません。
+</nierror>
+<nierror code="-42452">
+Time Series Analysisツールキット: 予測されたポイント数は0より大きい必要があります。
+</nierror>
+<nierror code="-42451">
+Time Series Analysisツールキット: モデル次数の値が必要な次数の値よりも小さくなっています。
+</nierror>
+<nierror code="-42442">
+Time Series Analysisツールキット: ケプストラムビン数は0より大きくなければなりません。
+</nierror>
+<nierror code="-42441">
+Time Series Analysisツールキット: 部分空間の次元 (パーセント) は、0より大きく100未満でなければなりません。
+</nierror>
+<nierror code="-42430">
+Time Series Analysisツールキット: リファレンス値が無効です。
+</nierror>
+<nierror code="-42429">
+Time Series Analysisツールキット: 入力系列を分割するサブシーケンスの数は0より大きくなければなりません。
+</nierror>
+<nierror code="-42428">
+Time Series Analysisツールキット: パーセントは0以上100未満である必要があります。
+</nierror>
+<nierror code="-42427">
+Time Series Analysisツールキット: 時間ポイント配列のサイズが、不等サンプリングされた時系列の値配列のサイズと一致しません。
+</nierror>
+<nierror code="-42426">
+Time Series Analysisツールキット: 時系列の季節パターンの長さは0より大きくなければなりません。
+</nierror>
+<nierror code="-42425">
+Time Series Analysisツールキット: 分布を定義する自由度は0より大きくなければなりません。
+</nierror>
+<nierror code="-42424">
+Time Series Analysisツールキット: 上限エンドポイントの値は、下限エンドポイントの値より大きくなければなりません。
+</nierror>
+<nierror code="-42423">
+Time Series Analysisツールキット: 入力パラメータが多変量時系列の次元と一致しません。
+</nierror>
+<nierror code="-42422">
+Time Series Analysisツールキット: サンプル数は0より大きくなければなりません。
+</nierror>
+<nierror code="-42421">
+Time Series Analysisツールキット: 入力標準偏差は0より大きくなければなりません。
+</nierror>
+<nierror code="-42407">
+Time Series Analysisツールキット: 入力時系列はメモリには大きすぎます。入力時系列をダウンサンプルするか、窓幅を変更するか、メモリの消費を減らすため入力時系列を切り捨てます。
+</nierror>
+<nierror code="-42406">
+Time Series Analysisツールキット: 入力時系列のすべての値は正の数でなければなりません。
+</nierror>
+<nierror code="-42405">
+Time Series Analysisツールキット: 入力時系列が空であるか、または入力時系列の長さが必要な長さより大きくなければなりません。
+</nierror>
+<nierror code="-42404">
+Time Series Analysisツールキット: このファイル操作はLabVIEW Real-Timeモジュールをサポートしません。
+</nierror>
+<nierror code="-42403">
+Time Series Analysisツールキット: 周波数ビン数は0より大きくなければなりません。
+</nierror>
+<nierror code="-42402">
+Time Series Analysisツールキット: サンプルレートは0より大きくなければなりません。
+</nierror>
+<nierror code="-42401">
+Time Series Analysisツールキット: カラーテーブルのサイズは256に等しくなければなりません。
+</nierror>
+<nierror code="42421">
+Time Series Analysisツールキット: 指定された数より多くの独立成分を推定することはできません。
+</nierror>
+<nierror code="42422">
+Time Series Analysisツールキット: 周波数ビンの数が変更されました。
+</nierror>
+</nidocument>

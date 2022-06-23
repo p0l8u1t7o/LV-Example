@@ -1,0 +1,271 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="DataFinder Toolkit" displayname="DataFinder Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-305999">
+DataFinder Toolkit:  Ran out of memory.
+</nierror>
+<nierror code="-305998">
+DataFinder Toolkit:  The DataFinder environment has not been initialized correctly.
+</nierror>
+<nierror code="-305997">
+DataFinder Toolkit:  The DataFinder is not installed or must be updated.
+</nierror>
+<nierror code="-305990">
+DataFinder Toolkit:  Unspecified error.
+</nierror>
+<nierror code="-305982">
+DataFinder Toolkit:  The SearchResult reference is not valid.
+</nierror>
+<nierror code="-305981">
+DataFinder Toolkit:  The Query reference is not valid.
+</nierror>
+<nierror code="-305980">
+DataFinder Toolkit:  The DataFinder reference is not valid.
+</nierror>
+<nierror code="-305603">
+DataFinder Toolkit:  The connected DataFinder does not support this method.
+</nierror>
+<nierror code="-305602">
+DataFinder Toolkit:  The connected DataFinder does not support this property.
+</nierror>
+<nierror code="-305602">
+DataFinder Toolkit:  The connected DataFinder does not support this property.
+</nierror>
+<nierror code="-305601">
+DataFinder Toolkit:  The connected DataFinder is not the correct version for this method.
+</nierror>
+<nierror code="-305600">
+DataFinder Toolkit:  Access denied.
+</nierror>
+<nierror code="-305586">
+DataFinder Toolkit:  The DataFinder does not have an active DataPlugin to index the specified file.
+</nierror>
+<nierror code="-305585">
+DataFinder Toolkit:  There are too may indexing tasks in the queue. Try again later.
+</nierror>
+<nierror code="-305579">
+DataFinder Toolkit:  The specified path is not valid.
+</nierror>
+<nierror code="-305577">
+DataFinder Toolkit:  To optimize a custom property that has not been indexed, you must specify a data type.
+</nierror>
+<nierror code="-305576">
+DataFinder Toolkit:  It is not possible to optimize base properties.
+</nierror>
+<nierror code="-305575">
+DataFinder Toolkit:  A search area with the specified client path already exists.
+</nierror>
+<nierror code="-305574">
+DataFinder Toolkit:  The specified path is not valid.
+</nierror>
+<nierror code="-305569">
+DataFinder Toolkit:  A search area with the specified name already exists.
+</nierror>
+<nierror code="-305568">
+DataFinder Toolkit:  A search area with the specified path already exists.
+</nierror>
+<nierror code="-305567">
+DataFinder Toolkit:  The specified client path is invalid.
+</nierror>
+<nierror code="-305566">
+DataFinder Toolkit:  The specified path is invalid.
+</nierror>
+<nierror code="-305565">
+DataFinder Toolkit:  The specified name is invalid.
+</nierror>
+<nierror code="-305564">
+DataFinder Toolkit:  The specified search area is invalid.
+</nierror>
+<nierror code="-305563">
+DataFinder Toolkit:  The DataFinder Toolkit-API cannot configure DataFinder Version 2.0.
+</nierror>
+<nierror code="-305562">
+DataFinder Toolkit:  Cannot write the DataFinder configuration. A timeout has occured.
+</nierror>
+<nierror code="-305561">
+DataFinder Toolkit:  Cannot read the DataFinder configuration. A timeout has occured.
+</nierror>
+<nierror code="-305560">
+DataFinder Toolkit:  Access denied.
+</nierror>
+<nierror code="-305559">
+DataFinder Toolkit:  The property is read-only.
+</nierror>
+<nierror code="-305550">
+DataFinder Toolkit:  Invalid argument.
+</nierror>
+<nierror code="-305544">
+DataFinder Toolkit:  At least one value exceeds the maximum allowed length of %d characters.
+</nierror>
+<nierror code="-305543">
+DataFinder Toolkit:  Cannot determine the search result path. The DataFinder index might be corrupted.
+</nierror>
+<nierror code="-305542">
+DataFinder Toolkit:  The value of this property is not clear.
+</nierror>
+<nierror code="-305541">
+DataFinder Toolkit:  The specified property does not exist.
+</nierror>
+<nierror code="-305540">
+DataFinder Toolkit:  The specified data type is not the same as the data type of the property.
+</nierror>
+<nierror code="-305539">
+DataFinder Toolkit:  The specified property is not valid.
+</nierror>
+<nierror code="-305534">
+DataFinder Toolkit:  The query contains at least one invalid operator.
+</nierror>
+<nierror code="-305533">
+DataFinder Toolkit:  An error occurred during the search. The query may contain at least one invalid property.
+</nierror>
+<nierror code="-305532">
+DataFinder Toolkit:  The query contains at least one invalid property.
+</nierror>
+<nierror code="-305531">
+DataFinder Toolkit:  Max value count must be greater than zero.
+</nierror>
+<nierror code="-305530">
+DataFinder Toolkit:  You cannot execute a query which only contains "order by only" search conditions.
+</nierror>
+<nierror code="-305529">
+DataFinder Toolkit:  Sorting search results according to the specified property is not possible. Its values are ambiguous for the given return type.
+</nierror>
+<nierror code="-305528">
+DataFinder Toolkit:  Max results count must be greater than zero.
+</nierror>
+<nierror code="-305527">
+DataFinder Toolkit:  You can connect single values with "OR" only if you use the "=" operator.
+</nierror>
+<nierror code="-305526">
+DataFinder Toolkit:  This value is not valid.
+</nierror>
+<nierror code="-305525">
+DataFinder Toolkit:  This operator is not valid.
+</nierror>
+<nierror code="-305524">
+DataFinder Toolkit:  The specified object type is not valid.
+</nierror>
+<nierror code="-305523">
+DataFinder Toolkit:  The specified return type is not valid.
+</nierror>
+<nierror code="-305522">
+DataFinder Toolkit:  An internal error has occured. Cannot create the query.
+</nierror>
+<nierror code="-305521">
+DataFinder Toolkit:  The specified query is invalid.
+</nierror>
+<nierror code="-305520">
+DataFinder Toolkit:  Cannot execute this search. A timeout has occured.
+</nierror>
+<nierror code="-305509">
+DataFinder Toolkit:  Cannot execute this DataFinder request. A timeout has occured.
+</nierror>
+<nierror code="-305508">
+DataFinder Toolkit:  No DataFinder is connected.
+</nierror>
+<nierror code="-305507">
+DataFinder Toolkit:  The DataFinder is no longer available.
+</nierror>
+<nierror code="-305506">
+DataFinder Toolkit:  Cannot connect to this DataFinder. You do not have the required rights.
+</nierror>
+<nierror code="-305505">
+DataFinder Toolkit:  You do not have a license for the DataFinder Toolkit.
+</nierror>
+<nierror code="-305504">
+DataFinder Toolkit:  Cannot connect to this DataFinder. A timeout has occured.
+</nierror>
+<nierror code="-305503">
+DataFinder Toolkit:  Cannot connect to this DataFinder. One or more connection parameters are invalid.
+</nierror>
+<nierror code="-305502">
+DataFinder Toolkit:  Cannot connect to this DataFinder.
+</nierror>
+<nierror code="-305501">
+DataFinder Toolkit:  This DataFinder version is too old to connect to.
+</nierror>
+<nierror code="305501">
+DataFinder Toolkit:  The DataFinder Toolkit-API cannot configure DataFinder Version 2.0.
+</nierror>
+<nierror code="305502">
+DataFinder Toolkit:  Cannot convert the data to the specified data type.
+</nierror>
+<nierror code="305503">
+DataFinder Toolkit:  Cannot load the file. The DataFinder does not support this file format.
+</nierror>
+<nierror code="305504">
+DataFinder Toolkit:  Cannot open the file.
+</nierror>
+<nierror code="305505">
+DataFinder Toolkit:  Cannot load this search result. Maybe the DataFinder index needs to be updated.
+</nierror>
+<nierror code="305506">
+DataFinder Toolkit:  Waveform attribute incomplete.
+</nierror>
+<nierror code="305520">
+DataFinder Toolkit:  Max results count is too high. The DataFinder cannot return more than 32000 results.
+</nierror>
+<nierror code="305521">
+DataFinder Toolkit:  The connected DataFinder is not the correct version to support "order by". All order by settings are ignored.
+</nierror>
+<nierror code="305522">
+DataFinder Toolkit:  Order by statements for at least one property have been ignored because order by is not possible for non optimized custom properties.
+</nierror>
+<nierror code="305523">
+DataFinder Toolkit:  Order by statements for at least one property have been ignored because the property values are ambiguous for the given return type.
+</nierror>
+<nierror code="305524">
+DataFinder Toolkit:  The order by setting is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305525">
+DataFinder Toolkit:  The DataPlugin name is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305530">
+DataFinder Toolkit:  The DataPlugin name cannot be returned. The DataFinder does not support this file format.
+</nierror>
+<nierror code="305531">
+DataFinder Toolkit:  The search result reference does not contain the specified property.
+</nierror>
+<nierror code="305532">
+DataFinder Toolkit:  The property is not set.
+</nierror>
+<nierror code="305550">
+DataFinder Toolkit:  The specified property is not optimized.
+</nierror>
+<nierror code="305551">
+DataFinder Toolkit:  The specified property is already optimized.
+</nierror>
+<nierror code="305552">
+DataFinder Toolkit:  The specified search area already exists.
+</nierror>
+<nierror code="305553">
+DataFinder Toolkit:  The specified folder is already excluded from the search.
+</nierror>
+<nierror code="305554">
+DataFinder Toolkit:  The specified path has not been added to the search areas because it is a subfolder of an existing search area.
+</nierror>
+<nierror code="305555">
+DataFinder Toolkit:  The specified path contains existing search areas. These search areas has been integrated into the new search area.
+</nierror>
+<nierror code="305556">
+DataFinder Toolkit:  The specified path is as a subfolder already excluded from the search.
+</nierror>
+<nierror code="305557">
+DataFinder Toolkit:  The specified path contains folders which are already excluded from the search. These subfolders have been removed from the list of excluded folders.
+</nierror>
+<nierror code="305570">
+DataFinder Toolkit:  The property <parent> is not available for any files.
+</nierror>
+<nierror code="305571">
+DataFinder Toolkit:  The property <children> is not available for any channels.
+</nierror>
+<nierror code="305580">
+DataFinder Toolkit:  The "prefix" is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305600">
+DataFinder Toolkit:  The specified buffer is too small, The returned character sequence may be incomplete.
+</nierror>
+</nidocument>

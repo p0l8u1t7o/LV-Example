@@ -1,0 +1,49 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="MASM Toolkit" displayname="MASM Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-359599">
+MASM Toolkit:  Une erreur a eu lieu lors de la gestion des threads. Contactez National Instruments pour obtenir une assistance technique.
+</nierror>
+<nierror code="-359548">
+MASM Toolkit:  Une erreur a eu lieu lors du traitement des fichiers de données hors noyau (OOC).
+</nierror>
+<nierror code="-359547">
+MASM Toolkit:  Une erreur a eu lieu lors de la factorisation numérique ou de l'affinement itératif.
+</nierror>
+<nierror code="-359546">
+MASM Toolkit:  Une erreur a eu lieu lors de l'analyse et de la factorisation symbolique.
+</nierror>
+<nierror code="-359545">
+MASM Toolkit:  La session de résolution n'est pas valide ou est corrompue. Vous devez initialiser une session de résolution avant de l'utiliser.
+</nierror>
+<nierror code="-359544">
+MASM Toolkit:  Les matrices doivent avoir la même taille et le même modèle de matrice creuse.
+</nierror>
+<nierror code="-359543">
+MASM Toolkit:  Le format de fichier Matrix Market spécifié n'est pas correct.
+</nierror>
+<nierror code="-359542">
+MASM Toolkit:  Le format de stockage spécifié n'est pas correct.
+</nierror>
+<nierror code="-359541">
+MASM Toolkit:  L'objet de matrice creuse n'est pas valide. Vous devez initialiser ou créer un objet de matrice creuse avant de l'utiliser.
+</nierror>
+<nierror code="-359521">
+MASM Toolkit:  Le calcul de matrice réelle a échoué.
+</nierror>
+<nierror code="-359503">
+MASM Toolkit:  Impossible de libérer l'état de mémoire interne de la FFT.
+</nierror>
+<nierror code="-359502">
+MASM Toolkit:  Impossible d'initialiser l'état de mémoire interne de la FFT.
+</nierror>
+<nierror code="-359501">
+MASM Toolkit:  Impossible de calculer la FFT.
+</nierror>
+<nierror code="359501">
+MASM Toolkit:  Le calcul de matrice réelle a échoué. À la place, LabVIEW exécute le calcul de matrice complexe. Le résultat sera peut-être une matrice complexe.
+</nierror>
+</nidocument>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Adaptive Filter VIs" familyname="Adaptive Filter VIs">
+</nifamily>
+</nicomment>
+<nierror code="-42155">
+VIs für adaptive Filter: Die Programmcode-Erzeugung schlug fehl. Speichern Sie die LabVIEW-Projektdatei (*.lvproj), bevor Sie LabVIEW-FPGA-Code für den adaptiven Festkommafilter erzeugen.
+</nierror>
+<nierror code="-42154">
+VIs für adaptive Filter: Die Programmcode-Erzeugung schlug fehl. Das zu überschreibende VI befindet sich bereits im Speicher. Schließen Sie das VI und starten Sie die Programmcode-Erzeugung neu.
+</nierror>
+<nierror code="-42151">
+VIs für adaptive Filter: Die Konfiguration des adaptiven Festkommafilters ist ungültig. Simulieren Sie den adaptiven Festkommafilter, um eine angemessene Konfiguration zu bestimmen.
+</nierror>
+<nierror code="-42022">
+VIs für adaptive Filter: Die Länge des Arrays <b>secondary path</b> muss größer als Null sein.
+</nierror>
+<nierror code="-42021">
+VIs für adaptive Filter: Der angegebene adaptive Filter ist ungültig. Sie können die Filterkoeffizienten nicht festlegen, wenn der adaptive Filter den QR-RLS-Algorithmus ("QR decomposition-based recursive least squares") verwendet.
+</nierror>
+<nierror code="-42020">
+VIs für adaptive Filter: Die Länge des Eingangssignals entspricht nicht der Länge des adaptiven Filters.
+</nierror>
+<nierror code="-42019">
+VIs für adaptive Filter: Am Eingang <b>adaptive filter in</b> muss ein adaptiver Filter für reelle Werte angegeben werden.
+</nierror>
+<nierror code="-42018">
+VIs für adaptive Filter: Die Sample-Frequenz der Eingangssignale entspricht nicht der Frequenz anderer Signale oder die Sample-Frequenz eines Eingangssignals hat sich während des adaptiven Filterns geändert.
+</nierror>
+<nierror code="-42017">
+VIs für adaptive Filter: Der Datentyp des adaptiven Filters entspricht nicht dem Typ der Instanz von "AFT Get Coefficients" oder "AFT Set Coefficients". Je nachdem, ob der adaptive Filter mit reellen oder komplexen Werten arbeitet, müssen Sie die VI-Instanz für reelle oder komplexe Werte verwenden.
+</nierror>
+<nierror code="-42016">
+VIs für adaptive Filter: Der Datentyp des adaptiven Filters entspricht nicht dem Eingangssignaltyp. Verwenden Sie für reelle Signale einen adaptive Filter für reelle Werte. Für komplexe Signale verwenden Sie adaptive Filter für komplexe Werte.
+</nierror>
+<nierror code="-42015">
+VIs für adaptive Filter: Der Regelungsfaktor muss größer oder gleich 2,22045E-16 sein.
+</nierror>
+<nierror code="-42012">
+VIs für adaptive Filter: Es ist nicht mehr genügend Speicherplatz vorhanden. Schließen Sie offene Anwendungen, um Speicher freizugeben.
+</nierror>
+<nierror code="-42010">
+VIs für adaptive Filter: Der Wert des Eingangssignals ist 0. Vergewissern Sie sich, dass das Eingangssignal Werte enthält.
+</nierror>
+<nierror code="-42009">
+VIs für adaptive Filter: Die Länge des Eingangssignals x(n) entspricht nicht der Länge von d(n).
+</nierror>
+<nierror code="-42008">
+VIs für adaptive Filter: Die Länge der Filterkoeffizienten entspricht nicht der Filterlänge.
+</nierror>
+<nierror code="-42006">
+VIs für adaptive Filter: Die Filterlänge muss größer als 2 sein.
+</nierror>
+<nierror code="-42005">
+VIs für adaptive Filter: Der Wert von "leaky factor" liegt außerhalb des gültigen Bereichs. Der gültige Bereich lautet [0, 0.1].
+</nierror>
+<nierror code="-42004">
+VIs für adaptive Filter: Der Wert von "forgetting factor" liegt außerhalb des gültigen Bereichs. Der gültige Bereich lautet (0, 1].
+</nierror>
+<nierror code="-42003">
+VIs für adaptive Filter: Die Schrittweite muss größer als 0 sein. Für adaptive Filter mit normalisiertem LMS-Algorithmus (Least-Mean-Squares-Algorithmus) muss die Schrittgröße größer als 0 und kleiner als 2 sein.
+</nierror>
+<nierror code="-42002">
+VIs für adaptive Filter: Der gewünschte adaptive Filter existiert nicht oder wurde gelöscht.
+</nierror>
+<nierror code="42153">
+VIs für adaptive Filter: Die Programmcode-Erzeugung wurde abgebrochen.
+</nierror>
+</nidocument>

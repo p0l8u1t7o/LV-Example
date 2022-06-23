@@ -1,0 +1,33 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - Azure Toolkit - Queue Service
+</nicomment>
+<nierror code="414200">
+InvalidMarker - The specified marker is invalid.
+</nierror>
+<nierror code="414201">
+MessageNotFound - The specified message does not exist.
+</nierror>
+<nierror code="414202">
+MessageTooLarge - The message exceeds the maximum allowed size.
+</nierror>
+<nierror code="414203">
+PopReceiptMismatch - The specified pop receipt did not match the pop receipt for a dequeued message.
+</nierror>
+<nierror code="414204">
+QueueAlreadyExists -  The specified queue already exists.
+</nierror>
+<nierror code="414205">
+QueueBeingDeleted -  The specified queue is being deleted.
+</nierror>
+<nierror code="414206">
+QueueDisabled - The specified queue has been disabled by the administrator.
+</nierror>
+<nierror code="414207">
+QueueNotEmpty - The specified queue is not empty.
+</nierror>
+<nierror code="414208">
+QueueNotFound - The specified queue does not exist.
+</nierror>
+</nidocument>

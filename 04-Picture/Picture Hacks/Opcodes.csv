@@ -1,0 +1,21 @@
+Opcode (I16),Size (I32),Title,Set Pen?,Description,Data to append,Criteria,Miscellaneous
+1,8,Select Color,-,Sets the pen color,"U32:color, U32:colorBW","0£color<0x1000001, colorBW=0x0 or 0xFFFFFF",
+4,4,Set Pixel,Yes,Writes pixel at pen location,"{I16:Y, I16:X}",,
+5,4,Move,No,"Moves pen to location X,Y - Relative coordinates","{I16:Y, I16:X}",,
+6,4,Move To,No,"Moves pen to location X,Y - Absolute coordinates","{I16:Y, I16:X}",,
+7,4,Line,Yes,"Draws a line from pen location to X,Y - Relative Coordinates","{I16:Y, I16:X}",,
+8,4,Line To,Yes,"Draws a line from pen location to X,Y - Absolute Coordinates","{I16:Y, I16:X}",,
+9,8,Frame Rect,Yes,Draws a rectange with given coordinates,"{I16:top, I16:left, I16:bottom, I16:right}",,
+10,8,Paint Rect,Yes,Draws a rectange with given coordinates and fills,"{I16:top, I16:left, I16:bottom, I16:right}",,
+11,8,Frame Rect (Oval?),Yes,Draws an oval,"{I16:top, I16:left, I16:bottom, I16:right}",,
+12,8,Paint Rect (Oval?),Yes,Draws an oval and fills,"{I16:top, I16:left, I16:bottom, I16:right}",,
+13,12,Frame Arc,Yes,Draws an arc,"{I16:top, I16:left, I16:bottom, I16:right}, I16:start_angle, I16:arc_size",start_angle and arc_size are in degrees,
+14,12,Paint Arc,Yes,Draws an arc and fills,"{I16:top, I16:left, I16:bottom, I16:right}, I16:start_angle, I16:arc_size",start_angle and arc_size are in degrees,
+15,12,Gray Out Rect,No,Grays out (?) area with given color,"{I16:top, I16:left, I16:bottom, I16:right}, U32:color",,
+16,(n*4)+4,Poly Line,Yes,"Draws a polygon with X,Y points","I32:(n-1), {I16:Y, I16:X}[n]",n = size of array of coordinates,
+17,(n*4)+8,Paint Poly,Yes,"Draws a polygon with X,Y points and fills","I32:(n-1), U32:shape_class, {I16:Y, I16:X}[n]",n = size of array of coordinates,shape_class=2 for multiple lines
+18,x,TBox (Text Box?),No,Draws text in a box,"I32:text_length, {I16:top, I16:left, I16:bottom, I16:right}, I32:Mode; String Append TEXT; I32:desired_font, U32:text_color, U32:BG_color, U32:fgHint, U32:bgHint",x=36+(text_length rounded up to nearest even number),"Mode=2; desired_font=(0:User-Specified, 1:Application, 2:System, 3:Dialog); IF(black in B/W) {fgHint=0x0; bgHint=0xFFFFFF;} ELSE {fgHint=0xFFFFFF; bgHint=0x0;}"
+24,12,Frame Round Rect,Yes,Draws a rounded rectangle,"{I16:top, I16:left, I16:bottom, I16:right}, I16:oval_width, I16:oval_height",,
+25,12,Paint Round Rect,Yes,Draws a rounded rectangle and fills,"{I16:top, I16:left, I16:bottom, I16:right}, I16:oval_width, I16:oval_height",,
+29,x,Copy Pixmap,No,Draws a flattened pixmap,"I32:data_size, {I16:top, I16:left, I16:bottom, I16:right}, I16:bit_depth, {U32:fgColor, U32:bgColor}; String Append COLOR_TABLE_DATA; flattened_pixmap_data[]","x=22+sizeOf(color_table_data)+data_size; bit_depth=(1, 4, 8, 24)","COLOR_TABLE_DATA={I16:color_table_size, I16:0x8000} & (colortable_data...)"
+31,x,New Font,No,Sets the font to be used for text,"I8:x, I8:platform, I16:font_size, I16:flags, I16:darkness; String append DATAX",x=((font_name_length+1) rounded up to nearest even number)+8,"platform=1; flags={1:Strikeout, 2:Italic, 4:Underline, 8:Shadow}; DATAX=(((I8:font_name_length) & font) padded with spaces to be even length)"

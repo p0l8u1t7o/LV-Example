@@ -1,0 +1,132 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - Azure Toolkit - Storage Services
+</nicomment>
+<nierror code="414000">
+An unknown Storage Service error occurred.
+</nierror>
+<nierror code="414001">
+AccountAlreadyExists - The specified account already exists.
+</nierror>
+<nierror code="414002">
+AccountBeingCreated - The specified account is in the process of being created.
+</nierror>
+<nierror code="414003">
+AccountIsDisabled - The specified account is disabled.
+</nierror>
+<nierror code="414004">
+AuthenticationFailed - Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+</nierror>
+<nierror code="414005">
+ConditionHeadersNotSupported - Condition headers are not supported.
+</nierror>
+<nierror code="414006">
+ConditionNotMet - The condition specified in the conditional header(s) was not met for a read or write operation.
+</nierror>
+<nierror code="414007">
+EmptyMetadataKey -  The key for one of the metadata key-value pairs is empty.
+</nierror>
+<nierror code="414008">
+InsufficientAccountPermissions - Either (1) read operations are currently disabled, (2) write operations are not allowed, or (3) the account being accessed does not have sufficient permissions to execute this operation.
+</nierror>
+<nierror code="414009">
+InternalError - The server encountered an internal error. Please retry the request.
+</nierror>
+<nierror code="414010">
+InvalidAuthenticationInfo - The authentication information was not provided in the correct format. Verify the value of Authorization header.
+</nierror>
+<nierror code="414011">
+InvalidHeaderValue - The value provided for one of the HTTP headers was not in the correct format.
+</nierror>
+<nierror code="414012">
+InvalidHttpVerb - The HTTP verb specified was not recognized by the server.
+</nierror>
+<nierror code="414013">
+InvalidInput - One of the request inputs is not valid.
+</nierror>
+<nierror code="414014">
+InvalidMd5 - The MD5 value specified in the request is invalid. The MD5 value must be 128 bits and Base64-encoded.
+</nierror>
+<nierror code="414015">
+InvalidMetadata - The specified metadata is invalid. It includes characters that are not permitted.
+</nierror>
+<nierror code="414016">
+InvalidQueryParameterValue - An invalid value was specified for one of the query parameters in the request URI.
+</nierror>
+<nierror code="414017">
+InvalidRange - The range specified is invalid for the current size of the resource.
+</nierror>
+<nierror code="414018">
+InvalidResourceName - The specifed resource name contains invalid characters.
+</nierror>
+<nierror code="414019">
+InvalidUri - The requested URI does not represent any resource on the server.
+</nierror>
+<nierror code="414020">
+InvalidXmlDocument - The specified XML is not syntactically valid.
+</nierror>
+<nierror code="414021">
+InvalidXmlNodeValue - The value provided for one of the XML nodes in the request body was not in the correct format.
+</nierror>
+<nierror code="414022">
+Md5Mismatch - The MD5 value specified in the request did not match the MD5 value calculated by the server.
+</nierror>
+<nierror code="414023">
+MetadataTooLarge - The size of the specified metadata exceeds the maximum size permitted.
+</nierror>
+<nierror code="414024">
+MissingContentLengthHeader - The Content-Length header was not specified.
+</nierror>
+<nierror code="414025">
+MissingRequiredQueryParameter - A required query parameter was not specified for this request.
+</nierror>
+<nierror code="414026">
+MissingRequiredHeader - A required HTTP header was not specified.
+</nierror>
+<nierror code="414027">
+MissingRequiredXmlNode - A required XML node was not specified in the request body.
+</nierror>
+<nierror code="414028">
+MultipleConditionHeadersNotSupported - Multiple condition headers are not supported.
+</nierror>
+<nierror code="414029">
+OperationTimedOut - The operation could not be completed within the permitted time.
+</nierror>
+<nierror code="414030">
+OutOfRangeInput - One of the request inputs is out of range.
+</nierror>
+<nierror code="414031">
+OutOfRangeQueryParameterValue - A query parameter specified in the request URI is outside the permissible range.
+</nierror>
+<nierror code="414032">
+RequestBodyTooLarge - The size of the request body exceeds the maximum size permitted.
+</nierror>
+<nierror code="414033">
+ResourceTypeMismatch - The specified resource type does not match the type of the existing resource.
+</nierror>
+<nierror code="414034">
+RequestUrlFailedToParse - The url in the request could not be parsed.
+</nierror>
+<nierror code="414035">
+ResourceAlreadyExists - The specified resource already exists.
+</nierror>
+<nierror code="414036">
+ResourceNotFound - The specified resource does not exist.
+</nierror>
+<nierror code="414037">
+ServerBusy - Either (1) The server is currently unable to receive requests, (2) Ingress is over the account limit, (3) Egress is over the account limit, or (4) Operations per second is over the account limit.
+</nierror>
+<nierror code="414038">
+UnsupportedHeader - One of the HTTP headers specified in the request is not supported.
+</nierror>
+<nierror code="414039">
+UnsupportedXmlNode - One of the XML nodes specified in the request body is not supported.
+</nierror>
+<nierror code="414040">
+UnsupportedQueryParameter - One of the query parameters specified in the request URI is not supported.
+</nierror>
+<nierror code="414041">
+UnsupportedHttpVerb - The resource doesn't support the specified HTTP verb.
+</nierror>
+</nidocument>

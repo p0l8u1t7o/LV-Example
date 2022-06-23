@@ -1,0 +1,49 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="MASM Toolkit" displayname="MASM Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-359599">
+MASM Toolkit:  スレッド管理中にエラーが発生しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-359548">
+MASM Toolkit:  Out-of-Core（OOC）データファイルの処理中にエラーが発生しました。
+</nierror>
+<nierror code="-359547">
+MASM Toolkit:  数値因数分解または反復改良法の実行中にエラーが発生しました。
+</nierror>
+<nierror code="-359546">
+MASM Toolkit:  解析と記号的因数分解の実行中にエラーが発生しました。
+</nierror>
+<nierror code="-359545">
+MASM Toolkit:  ソルバーセッションが無効もしくは破損しています。 ソルバーセッションは使用前に初期化する必要があります。
+</nierror>
+<nierror code="-359544">
+MASM Toolkit:  各行列はサイズとスパースパターンが同じでなければなりません。
+</nierror>
+<nierror code="-359543">
+MASM Toolkit:  指定された行列マーケットファイルは正しくありません。
+</nierror>
+<nierror code="-359542">
+MASM Toolkit:  指定されたストレージ形式は正しくありません。
+</nierror>
+<nierror code="-359541">
+MASM Toolkit:  スパース行列オブジェクトが無効です。 スパース行列オブジェクトは、使用前に初期化または作成する必要があります。
+</nierror>
+<nierror code="-359521">
+MASM Toolkit:  実行列の計算に失敗しました。
+</nierror>
+<nierror code="-359503">
+MASM Toolkit:  FFTの内部メモリ状態を解放できません。
+</nierror>
+<nierror code="-359502">
+MASM Toolkit:  FFTの内部メモリ状態を初期化できません。
+</nierror>
+<nierror code="-359501">
+MASM Toolkit:  FFTを計算できません。
+</nierror>
+<nierror code="359501">
+MASM Toolkit:  実行列の計算に失敗しました。 代わりに複素行列の計算を実行します。 結果は複素行列となる可能性があります。
+</nierror>
+</nidocument>

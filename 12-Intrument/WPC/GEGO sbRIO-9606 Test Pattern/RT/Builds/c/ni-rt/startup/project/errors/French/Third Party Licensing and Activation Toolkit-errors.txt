@@ -1,0 +1,70 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Third Party Licensing and Activation Toolkit" displayname="Third Party Licensing and Activation Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-314528">
+Third Party Licensing and Activation Toolkit:  The library you are trying to remove licensing from is currently not activated.
+</nierror>
+<nierror code="-314527">
+Third Party Licensing and Activation Toolkit:  The library you are trying to remove licensing from does not have licensing enabled.
+</nierror>
+<nierror code="-314526">
+Third Party Licensing and Activation Toolkit:  Activation URL must be of the form "/path_to_solo/unlock/getcode.asp". Check for a leading "/" in the URL.
+</nierror>
+<nierror code="-314525">
+Third Party Licensing and Activation Toolkit:  Activation server address must be a SOLO server address of the form "server_path". Do not include the "http://" or "https://" prefix.
+</nierror>
+<nierror code="-314524">
+Third Party Licensing and Activation Toolkit:  The KEYLIB32.DLL on your machine could not be verified.
+</nierror>
+<nierror code="-314523">
+Third Party Licensing and Activation Toolkit:  Missing the input for the LabVIEW library's new password.
+</nierror>
+<nierror code="-314522">
+Third Party Licensing and Activation Toolkit:  Product information URL must be of the form "http(s)://path_to_webpage".
+</nierror>
+<nierror code="-314521">
+Third Party Licensing and Activation Toolkit:  Product purchase page URL must be of the form "http(s)://path_to_webpage".
+</nierror>
+<nierror code="-314520">
+Third Party Licensing and Activation Toolkit:  License file specified could not be opened. Check the password.
+</nierror>
+<nierror code="-314519">
+Third Party Licensing and Activation Toolkit:  Le chemin du fichier licence n'est pas valide.
+</nierror>
+<nierror code="-314518">
+Third Party Licensing and Activation Toolkit:  Aucune méthode d'activation n'a été spécifiée. Vous devez spécifier au moins une méthode d'activation.
+</nierror>
+<nierror code="-314517">
+Third Party Licensing and Activation Toolkit:  Le numéro d'activation par téléphone n'est pas valide.
+</nierror>
+<nierror code="-314516">
+Third Party Licensing and Activation Toolkit:  L'URL d'activation Web doit suivre la forme "http(s)://chemin_de_la_page_web".
+</nierror>
+<nierror code="-314515">
+Third Party Licensing and Activation Toolkit:  L'URL d'activation automatique doit être une URL de serveur SOLO de la forme "http(s)://chemin_de_solo/unlock".
+</nierror>
+<nierror code="-314514">
+Third Party Licensing and Activation Toolkit:  Le chemin de la bibliothèque n'est pas valide.
+</nierror>
+<nierror code="-314513">
+Third Party Licensing and Activation Toolkit:  L'entrée Version du produit est manquante.
+</nierror>
+<nierror code="-314512">
+Third Party Licensing and Activation Toolkit:  L'entrée Nom du produit est manquante.
+</nierror>
+<nierror code="-314511">
+Third Party Licensing and Activation Toolkit:  L'entrée Nom de la société est manquante.
+</nierror>
+<nierror code="-314502">
+Third Party Licensing and Activation Toolkit:  Les arguments de la ligne de commande ne spécifient pas les compléments logiciels à enregistrer.
+</nierror>
+<nierror code="-314501">
+Third Party Licensing and Activation Toolkit:  Le répertoire d'installation de LabVIEW est introuvable dans le registre.
+</nierror>
+<nierror code="-314500">
+Third Party Licensing and Activation Toolkit:  The Third Party Licensing &amp; Activation Toolkit is supported only on the Windows platform.
+</nierror>
+</nidocument>

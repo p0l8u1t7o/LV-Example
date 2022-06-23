@@ -1,0 +1,49 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="MASM Toolkit" displayname="MASM Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-359599">
+MASM Toolkit:  Fehler bei der Thread-Verwaltung. Wenden Sie sich bitte an den technischen Support von National Instruments.
+</nierror>
+<nierror code="-359548">
+MASM Toolkit:  Bei der Verarbeitung der OOC-Datendateien (out-of-core) trat ein Fehler auf.
+</nierror>
+<nierror code="-359547">
+MASM Toolkit:  Bei der numerischen Faktorisierung oder der iterativen Verfeinerung trat ein Fehler auf.
+</nierror>
+<nierror code="-359546">
+MASM Toolkit:  Bei der Analyse und der symbolischen Faktorisierung trat ein Fehler auf.
+</nierror>
+<nierror code="-359545">
+MASM Toolkit:  Die Lösungskalkulator-Session ist ungültig oder beschädigt. Die Session muss zuerst initialisiert werden.
+</nierror>
+<nierror code="-359544">
+MASM Toolkit:  Die Matrizen müssen die gleiche Größe und Besetzungsstruktur haben.
+</nierror>
+<nierror code="-359543">
+MASM Toolkit:  Die angegebene Matrix-Market-Datei ist fehlerhaft.
+</nierror>
+<nierror code="-359542">
+MASM Toolkit:  Das angegebene Speicherformat wird nicht unterstützt.
+</nierror>
+<nierror code="-359541">
+MASM Toolkit:  Das schwachbesetzte Matrixobjekt ist ungültig.  Sie müssen ein schwachbesetztes Matrixobjekt zuerst initialisieren oder erstellen.
+</nierror>
+<nierror code="-359521">
+MASM Toolkit:  Die Berechnung der reellen Matrix schlug fehl.
+</nierror>
+<nierror code="-359503">
+MASM Toolkit:  Der interne FFT-Speicherstatus konnte nicht freigegeben werden.
+</nierror>
+<nierror code="-359502">
+MASM Toolkit:  Der interne FFT-Speicherstatus konnte nicht initialisiert werden.
+</nierror>
+<nierror code="-359501">
+MASM Toolkit:  FFT konnte nicht berechnet werden.
+</nierror>
+<nierror code="359501">
+MASM Toolkit:  Die Berechnung der reellen Matrix schlug fehl. LabVIEW berechnet stattdessen die komplexe Matrix. Das Ergebnis kann also eine komplexe Matrix sein.
+</nierror>
+</nidocument>
